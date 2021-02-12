@@ -5,9 +5,7 @@ module Heroicon
     isolate_namespace Heroicon
 
     initializer "heroicon.assets.precompile" do |app|
-      app.config.assets.precompile += %w(**/*.svg)
+      app.config.assets.precompile += %w( **/*.svg )
     end
   end
 end
-
-
